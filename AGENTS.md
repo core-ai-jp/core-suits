@@ -4,7 +4,7 @@ Before relying on company-wide context, read the private `gauchecellist1201-png/
 
 Read and preserve `CLAUDE.md` as the detailed project contract, then inspect `README.md`, package and lock files, task-relevant source, and CI. The provider-neutral role assignment supersedes historical provider-specific implementer/reviewer labels. Respect the existing architecture and report UNKNOWN facts instead of guessing.
 
-Never output or commit secrets. Production deploys, production database changes, credentials, permissions, destructive Git operations, and deletion require explicit owner approval. Preserve user changes. For code changes run `npm run check` and `npm run build`; keep new permanent checks wired into `check`, and prove new guards with a safe negative test.
+Never output or commit secrets. Follow the current owner approval boundary in private `core-knowledge`: requested in-scope work proceeds through verification; confirm immediately before money-related execution and production changes to user-visible appearance. Preserve this repository’s technical security, authorization, and data-integrity safeguards, and keep sensitive, destructive, or external actions within the explicit task and runtime permissions. Preserve user changes. For code changes run `npm run check` and `npm run build`; keep new permanent checks wired into `check`, and prove new guards with a safe negative test.
 
 Keep organization isolation, private customer media, AI cost recording, real-data precedence, and honest product claims intact as required by `CLAUDE.md`. Return durable decisions and important migration changes to `core-knowledge` with sources and status.
 
